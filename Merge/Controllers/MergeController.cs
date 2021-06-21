@@ -32,7 +32,7 @@ namespace Merge.Controllers
         }
 
             ////IMPLEMENTATION 1
-            ////if you get colour red and number 2, this will generate 100 prize
+            ///if you get colour red and number 2, this will generate 100 prize
             //if ((coloursResponseCall == "red" && numbersResponseCall == "1") || (numbersResponseCall == "2") && (coloursResponseCall == "red"))
 
             //{
