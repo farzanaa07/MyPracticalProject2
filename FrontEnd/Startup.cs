@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Threading.Tasks;
 using FrontEnd.Repositories;
@@ -13,8 +14,10 @@ using Microsoft.Extensions.Hosting;
 
 namespace FrontEnd
 {
+    [ExcludeFromCodeCoverage]
     public class Startup
     {
+        
         public Startup(IWebHostEnvironment env)
         {
             var builder = new ConfigurationBuilder()

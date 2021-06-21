@@ -24,7 +24,7 @@ namespace PracticalProjectTesting.Tests
         private readonly ILogger<HomeController> _logger;
         private AppSettings appSettings = new AppSettings()
         {
-            mergedServiceURL = "https://farzana-app-service.azurewebsites.net/"
+            mergedServiceURL = "https://farzana-merge.azurewebsites.net"
         };
         public FrontendTest()
         {
