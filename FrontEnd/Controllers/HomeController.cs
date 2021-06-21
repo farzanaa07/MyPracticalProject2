@@ -15,7 +15,7 @@ using FrontEnd.Repositories;
 namespace FrontEnd.Controllers
 {
     public class HomeController : Controller
-    {
+    { //cfg
         private AppSettings Configuration;
        private readonly ILogger<HomeController> _logger;
         private IRepositoryWrapper repository;
