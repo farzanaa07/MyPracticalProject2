@@ -14,7 +14,7 @@ namespace Merge.Controllers
     [Route("[controller]")]
     public class MergeController : ControllerBase
     {
-        //lo
+        //lov
         public MergeController(IOptions<AppSettings> settings)
         {
             Configuration = settings.Value;
