@@ -7,6 +7,7 @@
             font-family: arial, sans-serif;
             border-collapse: collapse;
             width: 75%;
+            align-content:center;
         }
 
         td, th {
@@ -14,20 +15,30 @@
             text-align: center;
             padding: 5px;
         }
+        table.center {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        p {
+            text-align: center
+        }
+        h2 {
+            text-align: center
+        }
 
         tr:nth-child(even) {
             background-color: powderblue;
         }
     </style>
 
-    <h2>Enter your name to win a prize!</h2>
+    <h2 class="center">Enter your name to win a prize!</h2>
     <p>
-        What do you need to win the prize?
+        The table below shows which number and colour you need to win a prize. 
     </p>
-    <table style="width:75%">
+    <table style="width:60%" class="center">
         <tr>
-            <th>Colours</th>
-            <th>Numbers</th>
+            <th>Colour</th>
+            <th>Number</th>
             <th>Prize</th>
         </tr>
         <tr>
@@ -72,7 +83,7 @@
         </tr>
 
     </table>
-    <p>Good luck!</p>
+    <p class="center">Good luck!</p>
 
     <form asp-action="Merge">
         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
