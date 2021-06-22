@@ -58,9 +58,9 @@ resource "azurerm_app_service" "webapp" {
     dotnet_framework_version = "v5.0"
         }
 app_settings ={
-"coloursServiceURL" : "https://farzana-colours.azurewebsites.net"
-"numbersServiceURL" : "https://farzana-numbers.azurewebsites.net"
-"mergedServiceURL" : "http://farzana-merge.azurewebsites.net"
+"AppSettings__coloursServiceURL" : "https://farzana-colours.azurewebsites.net"
+"AppSettings__numbersServiceURL" : "https://farzana-numbers.azurewebsites.net"
+"AppSettings__mergedServiceURL" : "http://farzana-merge.azurewebsites.net"
 }
 }
 resource "azurerm_sql_server" "db" {
