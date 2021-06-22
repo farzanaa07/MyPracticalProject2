@@ -40,7 +40,7 @@ namespace Merge.Controllers
             }
 
 
-            //if you get colour blue and number 3 or number 4, this will generate 200 prize
+            //if you get colour blue and number 3 or number 4, this will generate 200 prizehv
             else if ((coloursResponseCall == "blue" && numbersResponseCall == "3") || (coloursResponseCall == "blue" && numbersResponseCall == "4"))
 
             {
