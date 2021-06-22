@@ -22,7 +22,7 @@ namespace Merge.Controllers
         [HttpGet]
         public async Task<IActionResult> Get()
         {
-
+            //the
             var numbersService = $"{Configuration.numbersServiceURL}/numbers"; //this is configuration code tha
             var numbersResponseCall = await new HttpClient().GetStringAsync(numbersService);
             var coloursService = $"{Configuration.coloursServiceURL}/colours";
@@ -73,7 +73,7 @@ namespace Merge.Controllers
             //    var mergedResponse = $"Your number is {numbersResponseCall} and colour is {coloursResponseCall}. You have won nothing. Too bad!";
             //    return Ok(mergedResponse);
             //}
-
+            
 
         }
     }
