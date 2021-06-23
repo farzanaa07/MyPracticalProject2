@@ -16,27 +16,21 @@ Service 1
 
 This acts as the core service that renders the HTML needed to interact with the application. It is responsible for communicating with the other 3 other services. This will be done in MVC C# and will display the random objects as well as the dependent object.
 
-
-
 Service 2
 
-This will be one of two services that will generate the random "object". In this case, this service will be number generator with 2 different implementations available:
-
-- one that creates a 4-digit number
-- one that creates a 5-digit number
-
+This will be one of two services that will generate the random "object". In this case, this service will be a number generator. 
 
 Service 3
 
-This will be one of two services that will generate a random "object". In this case, this service will be pulling an item from an array. The items in the array will be colours.  There will be two implementations available:
-- dark colours
-- light colours
+This will be one of two services that will generate a random "object". In this case, this service will be a colour generator
 
 Service 4
-
+This service will merge the objects from service 2 and 3 (a colour and a number) and generate a prize that is dependent on the results from the merge. For example, if the colour red and number 1 is generated, a prize of £100. 
 
 **User Journey**
-The user will input their name into the frontend and a colour and number will be generated for the user. They will need a specific combination of a number and colour to be able to win a prize.
+The user will input their name into the frontend home page and a colour and number will be generated for the user. They will need a specific combination of a number and colour to be able to win a prize. The diagram below describes the workflow for the user journey:
+
+![image](https://user-images.githubusercontent.com/70802911/123049838-e6f30080-d3f7-11eb-9cd8-8823afc8ec74.png)
 
 
 **Architecture**
