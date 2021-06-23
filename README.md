@@ -68,4 +68,9 @@ I used XUnit testing to test my controllers. I used repository patterning and mo
 ![image](https://user-images.githubusercontent.com/70802911/122797576-83fa5000-d2b7-11eb-8ed2-15a4b7d11911.png)
 
 
+**Risk Assessment**
+A screenshot of my risk assessment is shown below. 
+![image](https://user-images.githubusercontent.com/70802911/123110686-39521280-d434-11eb-88ea-9601ef121df8.png)
 
+Improvements:
+- Add database to the merge controller.
