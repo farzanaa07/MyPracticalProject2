@@ -35,6 +35,7 @@ namespace FrontEnd.Controllers
 
             return View();
         }
+     
 
         [Route("")]
         public IActionResult Index()
