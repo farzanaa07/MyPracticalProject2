@@ -43,8 +43,11 @@ The workflow below shows the way in which the services communicate together to b
 
 **Project Tracking**
 
-Jira was used to track the progress of my project and allowed me to look at the different parts of the project so I knew what was needed to be done.
+Jira was used to track the progress of my project and allowed me to look at the different parts of the project so I knew what was needed to be done. I added columns in my Jira board so that there was a column for each of the elements: project planning, coding and testing and deployment. Once I completed my tasks, I would move the tasks to the completed column. I also included a column with all the user stories.
 https://farzanaakter1.atlassian.net/secure/RapidBoard.jspa?projectKey=PPS&useStoredSettings=true&rapidView=4&atlOrigin=eyJpIjoiOWIwZjE4MWU1YTQyNDNkZTk1ZmI5ZGY4YzgyMTczMjMiLCJwIjoiaiJ9
+
+![image](https://user-images.githubusercontent.com/70802911/123056325-b498d180-d3fe-11eb-83f3-9e734512a06b.png)
+
 
 **Testing**
 
