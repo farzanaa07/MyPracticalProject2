@@ -43,16 +43,16 @@ The workflow below shows the way in which the services communicate together to b
 
 **CI Pipeline**
 
-![image](https://user-images.githubusercontent.com/70802911/123100787-53d3be00-d42b-11eb-88ab-fac50aa37d5a.png)
-
-The CI Pipeline above shows:
+![image](https://user-images.githubusercontent.com/70802911/123109573-40c4ec00-d433-11eb-815a-82e4c8802c43.png)
+The CI/CD Pipeline above shows:
 1. Developer changes application source code.
 2. Application code is committed to GitHub repository.
-3. Continuous Integration is triggered.
-4. Terraform is triggered to build the apps and database in Azure.
-5. Developer can open app and use the frontend Azure App Service.
-6. Developer is able to track project using Kanban board.
-7. xUnit Testing is carried out in Visual Studios.
+3. Terraform is used to create resources on Visual Studio Code.
+4. Terraform files are committed to GitHub.
+5. Continous Deployment by GitHub Actions triggers an automated deployment of application.
+7. Developer is able to use app service
+8. Developer is able to track project using Kanban boards.
+9. xUnit Testing is carried out in Visual Studios.
 
 **Project Tracking**
 
