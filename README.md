@@ -41,6 +41,15 @@ The workflow below shows the way in which the services communicate together to b
 ![image](https://user-images.githubusercontent.com/70802911/123052221-82857080-d3fa-11eb-8d48-f326f3849306.png)
 
 
+**CI Pipeline**
+
+![image](https://user-images.githubusercontent.com/70802911/123089745-3f89c400-d41f-11eb-82ff-3ce8c0866c8a.png)
+The CI Pipeline above shows:
+1. Developer changes application source code.
+2. Application code is committed to GitHub repository.
+3. Continuous Integration triggers Terraform to build the 4 Azure Web Apps and Azure SQL database.
+4. Developer can open app and use the frontend Azure App Service.
+
 **Project Tracking**
 
 Jira was used to track the progress of my project and allowed me to look at the different parts of the project so I knew what was needed to be done. I added columns in my Jira board so that there was a column for each of the elements: project planning, coding and testing and deployment. Once I completed my tasks, I would move the tasks to the completed column. I also included a column with all the user stories.
