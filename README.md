@@ -34,6 +34,16 @@ The user will input their name into the frontend home page and a colour and numb
 ![image](https://user-images.githubusercontent.com/70802911/123049838-e6f30080-d3f7-11eb-9cd8-8823afc8ec74.png)
 
 
+**Frontend design**
+
+First frontend page with user input:
+![image](https://user-images.githubusercontent.com/70802911/123227532-939eb200-d4cc-11eb-929e-3d31f114a19e.png)
+
+
+Second frontend page displaying merged colours and numbers and prize.
+![image](https://user-images.githubusercontent.com/70802911/123227681-baf57f00-d4cc-11eb-83f1-4d9d39910c10.png)
+
+
 **Architecture**
 
 The workflow below shows the way in which the services communicate together to be able to generate objects (number and string generator) that merge together.
