@@ -58,6 +58,7 @@ The CI/CD Pipeline above shows:
 
 I was able to show how my application is fully integrated using the Feature-Branch model into GitHub by making a change (e.g. background colour change), pushing this into GitHub and GitHub Actions is able to redeploy the application with the changes.
 
+
 **Project Tracking**
 
 Jira was used to track the progress of my project and allowed me to look at the different parts of the project so I knew what was needed to be done. I added columns in my Jira board so that there was a column for each of the elements: project planning, coding and testing and deployment. Once I completed my tasks, I would move the tasks to the completed column. I also included a column with all the user stories.
