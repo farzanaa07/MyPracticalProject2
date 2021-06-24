@@ -55,6 +55,7 @@ The CI/CD Pipeline above shows:
 9. xUnit Testing is carried out in Visual Studios.
 
 **Implementation**
+
 I was able to show how my application is fully integrated using the Feature-Branch model into GitHub by making a change (e.g. background colour change), pushing this into GitHub and GitHub Actions is able to redeploy the application with the changes.
 
 **Project Tracking**
@@ -67,7 +68,7 @@ https://farzanaakter1.atlassian.net/secure/RapidBoard.jspa?projectKey=PPS&useSto
 
 **Testing**
 
-I used XUnit testing to test my controllers. I used repository patterning and mocking to test part of my frontend controller (userinput section) and mocking alone to test my merge and part of my frontend controller. Overall test coverage was 71.6%. 
+I used XUnit testing to test my controllers. I used repository patterning and mocking to test part of my frontend controller (userinput section) and mocking alone to test my merge and part of my frontend controller. Overall test coverage was 71%. 
 ![image](https://user-images.githubusercontent.com/70802911/122797576-83fa5000-d2b7-11eb-8ed2-15a4b7d11911.png)
 
 
